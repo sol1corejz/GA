@@ -239,6 +239,7 @@ img{
         transform: translateX(300%);
         transition: transform 0.2s;
         transition-delay: 0.4s;
+        -webkit-tap-highlight-color: transparent;
     }
     .is-active{
         opacity: 1;
@@ -262,6 +263,7 @@ img{
         background-color: #14131A;
         cursor: pointer;
         color: #fff;
+        -webkit-tap-highlight-color: transparent;
     }
     .menu-button-text{
         margin-right: 10px;
