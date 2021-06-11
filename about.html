@@ -9,7 +9,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/Style.css">
-    <link rel="stylesheet" href="css/normalize.css">
 </head>
 <body class="primary-bg">
     <div class="container">
@@ -18,12 +17,20 @@
                 <img width="46" height="71"  src="imgs/logo.png" alt="logo: venom" class="logo-image">
             </a>
             <nav class="nav">
+                <button class="menu-button">
+                    <span class="menu-button-text">Меню</span>
+                    <img src="imgs/frame-3.svg" alt="icon: burger menu" class="menu-button-icon">
+                </button>
+                <button class="menu-close">
+                    <span class="menu-close-text">Закрыть</span>
+                    <img src="imgs/vector-1.svg" alt="icon: arrow right" class="menu-close-icon">
+                </button>
                 <ul class="nav-menu">
                     <li class="nav-menu-item">
                         <a href="" class="nav-menu-link">О фильме</a>
                     </li>
                     <li class="nav-menu-item">
-                        <a href="" class="nav-menu-link">Трейлер</a>
+                        <a data-fancybox href="https://www.youtube.com/watch?v=Othd8W8o3t0" class="nav-menu-link">Трейлер</a>
                     </li>
                     <li class="nav-menu-item">
                         <a href="" class="nav-menu-link">Актеры</a>
@@ -56,9 +63,11 @@
                     <li class="list-item">Пегги Лу</li>
                 </ul>
                 <div class="trailer">
-                    <button class="play">
-                        <img src="imgs/play.png" alt="icon: play" class="play-icon">
-                    </button>
+                    <a data-fancybox href="https://www.youtube.com/watch?v=Othd8W8o3t0">
+                        <button class="play">
+                            <img src="imgs/play.png" alt="icon: play" class="play-icon">
+                        </button>
+                    </a>
                 </div>
             </div>
             <!-- /.col -->
@@ -87,5 +96,10 @@
             <!-- /.col -->
         </div>
     </div>
+    <img src="imgs/venom.png" alt="photo: venom" class="venom">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
