@@ -190,6 +190,9 @@ img{
     .film{
         margin-top: 20%;
     }
+    .header{
+        padding-top: 5px;
+    }
 }
 @media (max-width: 768px) {
     .blood{
