@@ -8,7 +8,6 @@ img{
 }
 .container{
     max-width: 1140px;
-
     margin: auto;
 }
 .venom{
@@ -197,12 +196,15 @@ img{
         background: #14131A;
     }
     .venom{
-        top: 20%;
+        top: 10%;
+    }
+    .header{
+        padding-top: 5px;
     }
 }
 @media (max-width: 576px) {
     .venom{
-        top: 20%;
+        top: 10%;
         width: 30%;
     }
     .nav-menu{
@@ -294,5 +296,8 @@ img{
     }
     .column-2{
         column-count: 1;
+    }
+    .header{
+        padding-top: 5px;
     }
 }
